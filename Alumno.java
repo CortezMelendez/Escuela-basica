@@ -10,6 +10,7 @@ private String matricula;
 private double calificacion1;
 private double calificacion2;
 private double calificacion3;
+double promedio;
 
 public void Alumno(){
 }
@@ -63,6 +64,15 @@ public double getCalificacion3(){
     return this.calificacion3;
 }
 
+/*
+Nombre de metodos
+calcularPromedio(), mostrarAlumno().
+*/
+
+public void calcularPromedio(){
+    promedio=(calificacion1+calificacion2+calificacion3)/3;
+    System.out.println("El promedio del alumno "+this.nombre+ " es: "+ promedio);
+}
 
 
 }
