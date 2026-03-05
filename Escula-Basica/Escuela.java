@@ -3,9 +3,19 @@ import java.nio.channels.SelectableChannel;
 import java.util.Set;
 
 public class Escuela extends Alumno {
-    //Supercito para mostrar posteriormente
+    //Supercito para mostrar después 
     public Alumno (String nombre, String matricula, double calificacion1, double calificacion2, double calificacion3){
         super(nombre, matricula, calificacion1, calificacion2, calificacion3);
+        this.Alumno = Alumno
+    }
+
+    //Getter
+    public string getAlumno() {
+    return Alumno;
+    }
+    //Setter
+    public void  setAlumno( string Alumno) {
+        this.Alumno = Alumno;
     }
     //Constructorcito vacio :D
 
