@@ -1,32 +1,40 @@
 public class Main {
     public static void main (String[] args){
+         PedirDatos pd =new PedirDatos();
+
+       
+
+        do{
+        
+        int opc =pd.pedirEntero("1) ingresar un alumno\n2)Salir");
+
+
+        if(opc == 1){
+            
+        String nombre.PedirDatos("Ingrese el nombre del alumno ");
+        String matricula.PedirDatos("Ingrese la matricula del alumno");
+        double calificacion1.PedirDecimal("Ingrese la calificacion 1");
+        double calificacion2.PedirDecimal("Ingrese la calificacion 2");
+        double calificacion3.PedirDecimal("Ingrese la calificacion 3");
+
+
+        Alumno alumno=new Alumno ();
+        
+
+        pd.mostrarAlumnos();
+        pd.calcularPromedio();
+            
+        } 
+         System.out.print("Saliendo del programa");
+    }while(opc !=2);
+       
+
     
 
-        Alumnos alumno1=new Alumno();
-        alumno1.nombre="Angel";
-        alumno1.matricula="ueuety1u2";
-        alumno1.calificacion1=10;
-        alumno1.calificacion2=8;
-        alumno1.calificacion3=6;
-
-        alumno1.calcularPromedio();
-        alumno1.mostrarAlumno();
-
-        System.out.print("+++++++++++++++++++++++++++++++++++++++");
-
-
-        Escuela escuela1=new Escuela();
-        escuela1.alumno="Carlos";
-
-
-        escuela1.mostrarAlumno();
 
 
 
-
-
-
+}
         
 
     }
-}
