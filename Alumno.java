@@ -74,5 +74,13 @@ public void calcularPromedio(){
     System.out.println("El promedio del alumno "+this.nombre+ " es: "+ promedio);
 }
 
+public void mostrarAlumno(){
+    System.out.println("El nombre del alumno es: "+this.nombre);
+    System.out.println("La matricula del estudiante es: " + this.matricula);
+    System.out.println("La calificacion 1 es: "+ this.calificacion1);
+    System.out.println("La calificacion 2 es: "+ this.calificacion2);
+    System.out.println("La calificacion 3 es: "+ this.calificacion3);
+}
+
 
 }
